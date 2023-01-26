@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+.nav-typo {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-typo .link-props {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nav-typo .link-props:hover {
+  color: #eee;
+}
 
+.booking-btn {
+  background-color: #fff;
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #2a2a2a;
+  text-decoration: none;
+}
+.booking-btn:hover {
+  color: #000000;
+}
 
 /*# sourceMappingURL=styles.css.map */

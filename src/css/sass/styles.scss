@@ -1,1 +1,27 @@
- 
+@import './components/ext-imports.scss';
+@import './components/color-variables.scss';
+@import './components/fonts.scss';
+
+.nav-typo {
+  font-family: $montserrat;
+  .link-props {
+    color: #fff;
+    font-size: $fs-regular;
+    font-weight: $fw-medium;
+    &:hover {
+      color: #eee;
+    }
+  }
+}
+
+.booking-btn {
+  background-color: $white;
+  padding: 0.7rem 1rem;
+  font-weight: $fw-medium;
+  font-size: $fs-semismall;
+  color: $charleston-green;
+  text-decoration: none;
+  &:hover {
+    color: $black;
+  }
+} 
