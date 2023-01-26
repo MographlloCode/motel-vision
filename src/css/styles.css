@@ -5,51 +5,6 @@
   background-color: #eeeeee;
 }
 
-.nav-typo {
-  font-family: "Montserrat", sans-serif;
-}
-.nav-typo .link-props {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-}
-.nav-typo .link-props:hover {
-  color: #eee;
-}
-
-.booking-btn {
-  background-color: #fff;
-  padding: 0.7rem 1rem;
-  font-weight: 500;
-  font-size: 0.875rem;
-  color: #2a2a2a;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-.booking-btn:hover {
-  background-color: #7a7266;
-  color: #fff;
-}
-
-.header-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../imgs/slider/header.jpg");
-  height: 100vh;
-  background-size: cover;
-}
-
-.intro .intro-semititle {
-  color: #fff;
-  font-size: 1.375rem;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-}
-.intro .intro-title {
-  color: #fff;
-  font-size: 4.188rem;
-  font-weight: 600;
-  font-family: "Playfair Display", serif;
-}
-
 .dark-silver-props {
   background-color: #7a7266;
 }
@@ -64,7 +19,50 @@
   background-color: #7a7266;
 }
 
-.intro-btn {
+.nav-typo {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-typo .link-props {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.nav-typo .link-props:hover {
+  color: #eee;
+}
+.nav-typo .booking-btn {
+  background-color: #fff;
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #2a2a2a;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.nav-typo .booking-btn:hover {
+  background-color: #7a7266;
+  color: #fff;
+}
+
+.intro .header-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../imgs/slider/header.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.intro .intro-semititle {
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.intro .intro-title {
+  color: #fff;
+  font-size: 4.188rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+.intro .intro-btn {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   font-size: 0.875rem;
@@ -73,7 +71,32 @@
   padding: 0.5rem 2rem;
   transition: all 0.3s ease-in-out;
 }
-.intro-btn:hover {
+.intro .intro-btn:hover {
+  color: #fff;
+}
+
+.suites {
+  background-color: #7a7266;
+  transition: all 0.3s ease-in-out;
+}
+.suites .suites-link {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem 0 5rem 0;
+  transition: all 0.3s ease-in-out;
+}
+.suites .suites-link:hover {
+  color: #eeeeee;
+}
+
+.page-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.125rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.white {
   color: #fff;
 }
 
