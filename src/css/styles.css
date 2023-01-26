@@ -5,6 +5,20 @@
   background-color: #eeeeee;
 }
 
+.basic-btn {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  width: max-content;
+  transition: all 0.3s ease-in-out;
+}
+.basic-btn:hover {
+  color: #fff;
+}
+
 .dark-silver-props {
   background-color: #7a7266;
 }
@@ -17,6 +31,30 @@
 }
 .olive-drab-props:hover {
   background-color: #7a7266;
+}
+
+.olive-drab {
+  color: #5a493e;
+}
+
+.page-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.125rem;
+  margin-bottom: 2rem;
+}
+
+.page-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.white {
+  color: #fff;
+}
+
+.margin-high {
+  margin: 8rem;
 }
 
 .nav-typo {
@@ -62,18 +100,6 @@
   font-weight: 600;
   font-family: "Playfair Display", serif;
 }
-.intro .intro-btn {
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-  font-size: 0.875rem;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 0.5rem 2rem;
-  transition: all 0.3s ease-in-out;
-}
-.intro .intro-btn:hover {
-  color: #fff;
-}
 
 .suites {
   background-color: #7a7266;
@@ -89,15 +115,17 @@
   color: #eeeeee;
 }
 
-.page-title {
-  font-family: "Playfair Display", serif;
-  font-size: 2.125rem;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+.motel {
+  background-color: #eeeeee;
 }
-
-.white {
-  color: #fff;
+.motel .motel-box {
+  background-color: #fff;
+  padding: 7rem 5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+.motel .motel-img {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../imgs/slider/suites/suite-4.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */

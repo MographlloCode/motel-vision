@@ -7,6 +7,20 @@
   background-color: $bright-gray;
 }
 
+.basic-btn {
+  font-family: $montserrat;
+  color: #fff;
+  font-size: $fs-semismall;
+  font-weight: $fw-medium;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  width: max-content;
+  transition: $basic-transition;
+  &:hover {
+    color: #fff;
+  }
+}
+
 .dark-silver-props {
   background-color: $dark-silver;
   &:hover {
@@ -19,6 +33,29 @@
   &:hover {
     background-color: $dark-silver;
   }
+}
+
+.olive-drab {
+  color: $olive-drab-camo;
+}
+
+.page-title {
+  font-family: $playfair;
+  font-size: $fs-semilarge;
+  margin-bottom: 2rem;
+}
+.page-text {
+  font-family: $montserrat;
+  font-size: $fs-semismall;
+  font-weight: $fw-regular;
+}
+
+.white {
+  color: $white;
+}
+
+.margin-high {
+  margin: 8rem;
 }
 
 .nav-typo {
@@ -65,18 +102,6 @@
     font-weight: $fw-semibold;
     font-family: $playfair;
   }
-  .intro-btn {
-    font-family: $montserrat;
-    color: #fff;
-    font-size: $fs-semismall;
-    font-weight: $fw-medium;
-    text-decoration: none;
-    padding: 0.5rem 2rem;
-    transition: $basic-transition;
-    &:hover {
-      color: #fff;
-    }
-  }
 }
 
 .suites {
@@ -93,13 +118,15 @@
   }
 }
 
-.page-title {
-  font-family: $playfair;
-  font-size: $fs-semilarge;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}
-
-.white {
-  color: $white;
+.motel {
+  background-color: $bright-gray;
+  .motel-box {
+    background-color: $white;
+    padding: 7rem 5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  .motel-img {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('../imgs/slider/suites/suite-4.jpg');
+    background-size: cover;
+  }
 }
