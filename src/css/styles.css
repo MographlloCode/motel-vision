@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+.body-style {
+  background-color: #eeeeee;
+}
+
 .nav-typo {
   font-family: "Montserrat", sans-serif;
 }
@@ -20,9 +24,57 @@
   font-size: 0.875rem;
   color: #2a2a2a;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 .booking-btn:hover {
-  color: #000000;
+  background-color: #7a7266;
+  color: #fff;
+}
+
+.header-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../imgs/slider/header.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.intro .intro-semititle {
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.intro .intro-title {
+  color: #fff;
+  font-size: 4.188rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+
+.dark-silver-props {
+  background-color: #7a7266;
+}
+.dark-silver-props:hover {
+  background-color: #5a493e;
+}
+
+.olive-drab-props {
+  background-color: #5a493e;
+}
+.olive-drab-props:hover {
+  background-color: #7a7266;
+}
+
+.intro-btn {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.intro-btn:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

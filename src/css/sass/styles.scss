@@ -2,6 +2,10 @@
 @import './components/color-variables.scss';
 @import './components/fonts.scss';
 
+.body-style {
+  background-color: $bright-gray;
+}
+
 .nav-typo {
   font-family: $montserrat;
   .link-props {
@@ -21,7 +25,57 @@
   font-size: $fs-semismall;
   color: $charleston-green;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
   &:hover {
-    color: $black;
+    background-color: $dark-silver;
+    color: $white;
   }
 } 
+
+.header-img {
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../imgs/slider/header.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.intro {
+  .intro-semititle {
+    color: $white;
+    font-size: $fs-medium;
+    font-weight: $fw-medium;
+    font-family: $montserrat;
+  }
+  .intro-title {
+    color: $white;
+    font-size: $fs-large;
+    font-weight: $fw-semibold;
+    font-family: $playfair;
+  }
+}
+
+.dark-silver-props {
+  background-color: $dark-silver;
+  &:hover {
+    background-color: $olive-drab-camo;
+  }
+}
+
+.olive-drab-props {
+  background-color: $olive-drab-camo;
+  &:hover {
+    background-color: $dark-silver;
+  }
+}
+
+.intro-btn {
+  font-family: $montserrat;
+  color: #fff;
+  font-size: $fs-semismall;
+  font-weight: $fw-medium;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #fff;
+  }
+}
