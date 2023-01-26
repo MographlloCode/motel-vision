@@ -4,12 +4,13 @@ In this repository you will find all the files of the "Motel Vision" Project, a 
 
 ### Technologies
 
-**HTML5** [![My Skills](https://skills.thijs.gg/icons?i=html)](https://skills.thijs.gg)
+**HTML5**<br>
+[![My Skills](https://skills.thijs.gg/icons?i=html)](https://skills.thijs.gg)
 
-**CSS3**
+**CSS3**<br>
 [![My Skills](https://skills.thijs.gg/icons?i=css)](https://skills.thijs.gg)
 
-**Bootstrap 5**
+**Bootstrap 5**<br>
 [![My Skills](https://skills.thijs.gg/icons?i=bootstrap)](https://skills.thijs.gg)
 
 ## Author
