@@ -4,7 +4,7 @@
 <head>
   <!-- Favicon - Guia de Motéis -->
   <link rel="shortcut icon" href="src/imgs/favicon.svg" type="image/x-icon">
-  <title>Motel Vision</title>
+  <title>Motel Vison</title>
   <!-- Required META Tags -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
 
 <body class="body-style">
   <header id="topo">
-    <nav class="navbar navbar-expand-lg nav-typo fixed-top">
+    <nav id="nav" class="navbar navbar-expand-lg nav-typo fixed-top">
       <div class="container">
         <a href="#inicio" class="navbar-brand m-0"><img src="src/imgs/logo.svg" alt="Motel Vision"></a>
         </button>
@@ -46,7 +46,7 @@
               <p class="intro-semititle m-0">Bem vindo ao</p>
             </div>
             <div class="row">
-              <h1 class="intro-title m-0">Vison Motel</h1>
+              <h1 class="intro-title m-0 text-center">Vison Motel</h1>
             </div>
             <div class="row mt-3">
               <div class="col-12 d-flex justify-content-center align-items-center">
@@ -81,19 +81,68 @@
   </section>
   <section id="motel" class="motel">
     <div class="row margin-high">
-      <div class="col-6 order-12 mt-4 d-flex flex-column justify-content-center align-items-left motel-box">
+      <div class="col-md-6 order-12 mt-4 d-flex flex-column justify-content-center align-items-left motel-box">
         <h2 class="page-title olive-drab">O Motel</h2>
         <p class="page-text">O Vison Motel está localizado na Zona Industrial Norte, em Joinville e conta com ambientes exclusivos e privativos, basta escolher a suíte que mais combina com você. </p>
         <p class="page-text">Todos os quartos são equipados com TV, ar-condicionado, ducha, frigobar e garagem privativa, enquanto outras opções vão além: oferecem hidromassagem, pole dance, x sado e no caso da Suíte Erótika, até mesmo uma jaula ao redor da cama. </p>
         <p class="page-text">Hospede-se e aproveite ainda nosso delicioso café da manhã, servido todos os dias para pernoites!</p>
         <a href="#" class="dark-silver-props basic-btn mt-4">Saiba mais</a>
       </div>
-      <div class="col-6 order-1 mb-4 d-flex flex-column justify-content-center align-items-left motel-box motel-img">
+      <div class="col-md-6 order-1 mb-4 d-flex flex-column justify-content-center align-items-left motel-box motel-img">
+      </div>
+    </div>
+  </section>
+  <section id="cortesias" class="cortesias p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <h2 class="page-title white">Cortesias</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <div class="row mt-3 mb-3">
+            <div class="col-md-4 mt-3 mb-3">
+              <div class="card border-none cortesia-card">
+                <img src="src/imgs/cards/img 1.jpg" class="card-img-top" alt="mesa de café da manhã com frutas, frios e leite">
+                <div class="card-body text-center p-5">
+                  <h5 class="cortesia-card-title">Café da Manhã</h5>
+                  <p class="cortesia-card-text">Servido todos os dias entre 6h e 10h, somente para o pernoite.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-3 mb-3">
+              <div class="card border-none cortesia-card">
+                <img src="src/imgs/cards/img 2.jpg" class="card-img-top" alt="mesa de café da manhã com frutas, frios e leite">
+                <div class="card-body text-center p-5">
+                  <h5 class="cortesia-card-title">Especial para Aniversariantes</h5>
+                  <p lass="cortesia-card-text">A equipe do Vison Motel quer tornar o seu aniversário ainda mais especial!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-3 mb-3">
+              <div class="card border-none cortesia-card">
+                <img src="src/imgs/cards/img 3.png" class="card-img-top" alt="mesa de café da manhã com frutas, frios e leite">
+                <div class="card-body text-center p-5">
+                  <h5 class="cortesia-card-title">Descontos</h5>
+                  <p lass="cortesia-card-text">Economize se hospedando com desconto no Motel Vison!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <a href="#" class="charleston-green-props basic-btn mt-4">Ver todas as cortesias</a>
+        </div>
       </div>
     </div>
   </section>
   <!-- Bootstrap v5.0.2 JS Bundle -->
-  <script src=" src/js/bootstrap-5.0.2-dist/bootstrap.bundle.min.js">
+  <script src=" src/js/bootstrap-5.0.2-dist/bootstrap.bundle.min.js"></script>
+  <!-- Local JS -->
+  <script src="src/js/main.js"></script>
   </script>
 </body>
 

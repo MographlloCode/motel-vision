@@ -3,6 +3,8 @@
 @import './components/fonts.scss';
 @import './components/general-vars.scss';
 
+
+
 .body-style {
   background-color: $bright-gray;
 }
@@ -35,6 +37,13 @@
   }
 }
 
+.charleston-green-props {
+  background-color: $charleston-green;
+  &:hover {
+    background-color: $olive-drab-camo;
+  }
+}
+
 .olive-drab {
   color: $olive-drab-camo;
 }
@@ -57,6 +66,9 @@
 .margin-high {
   margin: 8rem;
 }
+
+.nav-colored { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); }
+.nav-transparent { background-color:transparent;}
 
 .nav-typo {
   font-family: $montserrat;
@@ -128,5 +140,27 @@
   .motel-img {
     background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('../imgs/slider/suites/suite-4.jpg');
     background-size: cover;
+  }
+}
+
+.cortesias {
+  background-color: $granite-gray;
+  .cortesia-card {
+    border: none;
+    border-radius: 0;
+    height: 100%;
+    .cortesia-card-title {
+      font-family: $playfair;
+      font-size: $fs-medium;
+      font-weight: $fw-semibold;
+      color: $charleston-green;
+      margin-bottom: 1.2rem;
+    }
+    .cortesia-card-text {
+      font-family: $montserrat;
+      font-size: $fs-semismall;
+      font-weight: $fw-regular;
+      color: $charleston-green;
+    }
   }
 }
