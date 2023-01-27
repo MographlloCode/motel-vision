@@ -44,6 +44,10 @@
   color: #5a493e;
 }
 
+.charleston-green {
+  color: #2a2a2a;
+}
+
 .page-title {
   font-family: "Playfair Display", serif;
   font-size: 2.125rem;
@@ -163,6 +167,14 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: #2a2a2a;
+}
+
+.localizacao .localizacao-box {
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+.localizacao .localizacao-box .localizacao-map {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

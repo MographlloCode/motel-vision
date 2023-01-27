@@ -48,6 +48,10 @@
   color: $olive-drab-camo;
 }
 
+.charleston-green {
+  color: $charleston-green;
+}
+
 .page-title {
   font-family: $playfair;
   font-size: $fs-semilarge;
@@ -161,6 +165,16 @@
       font-size: $fs-semismall;
       font-weight: $fw-regular;
       color: $charleston-green;
+    }
+  }
+}
+
+.localizacao {
+  .localizacao-box {
+      background-color: $white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    .localizacao-map {
+      width: 100%;
     }
   }
 }
