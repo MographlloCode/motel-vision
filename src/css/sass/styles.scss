@@ -57,6 +57,13 @@
   font-size: $fs-semilarge;
   margin-bottom: 2rem;
 }
+
+.page-subtitle {
+  font-family: $montserrat;
+  font-size: $fs-extrasmall;
+  font-weight: $fw-regular;
+}
+
 .page-text {
   font-family: $montserrat;
   font-size: $fs-semismall;
@@ -71,33 +78,34 @@
   margin: 8rem;
 }
 
-.nav-colored { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); }
-.nav-transparent { background-color:transparent;}
-
-.nav-typo {
-  font-family: $montserrat;
-  .link-props {
-    color: #fff;
-    font-size: $fs-regular;
-    font-weight: $fw-medium;
-    transition: $basic-transition;
-    &:hover {
-      color: #eee;
+.topo {
+  .nav-colored { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); }
+  .nav-transparent { background-color:transparent;}
+  .nav-typo {
+    font-family: $montserrat;
+    .link-props {
+      color: #fff;
+      font-size: $fs-regular;
+      font-weight: $fw-medium;
+      transition: $basic-transition;
+      &:hover {
+        color: #eee;
+      }
     }
+    .booking-btn {
+      background-color: $white;
+      padding: 0.7rem 1rem;
+      font-weight: $fw-medium;
+      font-size: $fs-semismall;
+      color: $charleston-green;
+      text-decoration: none;
+      transition: $basic-transition;
+      &:hover {
+        background-color: $dark-silver;
+        color: $white;
+      }
+    } 
   }
-  .booking-btn {
-    background-color: $white;
-    padding: 0.7rem 1rem;
-    font-weight: $fw-medium;
-    font-size: $fs-semismall;
-    color: $charleston-green;
-    text-decoration: none;
-    transition: $basic-transition;
-    &:hover {
-      background-color: $dark-silver;
-      color: $white;
-    }
-  } 
 }
 
 .intro {
@@ -176,5 +184,46 @@
     .localizacao-map {
       width: 100%;
     }
+  }
+}
+
+.contato-footer {
+  background-color: $charleston-green;
+  .footer-important {
+    .contato-logo {
+      height: 5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .footer-nav {
+    display: flex;
+    .footer-item-box{ 
+      margin: 0 3rem;
+      .footer-nav-item {
+        list-style-type: none;
+        .link-props {
+          font-family: $montserrat;
+          color: #fff;
+          font-size: $fs-regular;
+          font-weight: $fw-regular;
+          transition: $basic-transition;
+          &:hover {
+            color: #eee;
+          }
+        }
+      }
+    }
+  }
+}
+
+.copyrights {
+  background: $black;
+  .copyrights-text {
+    text-transform: uppercase;
+    font-family: $titillium;
+    font-size: $fs-extrasmall;
+    font-weight: $fw-regular;
+    color: $white;
+    padding: 0.5rem;
   }
 }

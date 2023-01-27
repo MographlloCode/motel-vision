@@ -54,6 +54,12 @@
   margin-bottom: 2rem;
 }
 
+.page-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
 .page-text {
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
@@ -68,27 +74,25 @@
   margin: 8rem;
 }
 
-.nav-colored {
+.topo .nav-colored {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-
-.nav-transparent {
+.topo .nav-transparent {
   background-color: transparent;
 }
-
-.nav-typo {
+.topo .nav-typo {
   font-family: "Montserrat", sans-serif;
 }
-.nav-typo .link-props {
+.topo .nav-typo .link-props {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-.nav-typo .link-props:hover {
+.topo .nav-typo .link-props:hover {
   color: #eee;
 }
-.nav-typo .booking-btn {
+.topo .nav-typo .booking-btn {
   background-color: #fff;
   padding: 0.7rem 1rem;
   font-weight: 500;
@@ -97,7 +101,7 @@
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-.nav-typo .booking-btn:hover {
+.topo .nav-typo .booking-btn:hover {
   background-color: #7a7266;
   color: #fff;
 }
@@ -175,6 +179,45 @@
 }
 .localizacao .localizacao-box .localizacao-map {
   width: 100%;
+}
+
+.contato-footer {
+  background-color: #2a2a2a;
+}
+.contato-footer .footer-important .contato-logo {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+.contato-footer .footer-nav {
+  display: flex;
+}
+.contato-footer .footer-nav .footer-item-box {
+  margin: 0 3rem;
+}
+.contato-footer .footer-nav .footer-item-box .footer-nav-item {
+  list-style-type: none;
+}
+.contato-footer .footer-nav .footer-item-box .footer-nav-item .link-props {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+.contato-footer .footer-nav .footer-item-box .footer-nav-item .link-props:hover {
+  color: #eee;
+}
+
+.copyrights {
+  background: #000000;
+}
+.copyrights .copyrights-text {
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
